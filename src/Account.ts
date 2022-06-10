@@ -63,6 +63,16 @@ export class Account implements Account{
         return amount;
     }
 }
+export class Entry implements Entry {
+    public id: number;
+    constructor(
+        public concept: string,
+        public amount: number,
+        public category: CategoryEnum
+    ){
+        this.id = getRandomId()
+    }
+}
 
 
 
