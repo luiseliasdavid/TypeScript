@@ -50,8 +50,8 @@ export class Account implements Account{
     }
 
     private updateBalance():void{
-        const balance= this.entries.reduce((previuosValue,currentValue)=>{
-            return previuosValue + this.convertAmountByCategory(currentEntry)
+        const balance= this.entries.reduce((previuosValue,currentEntry)=>{
+            return previuosValue + this.convertAmountByCategory(currentEntry);
         },0)
         this.balance = balance
     }
