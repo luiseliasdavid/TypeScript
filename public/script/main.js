@@ -1,2 +1,5 @@
-"use strict";
-console.log('Navis Code 💚💚');
+import { Account, Entry } from "./Account.js";
+var account = new Account();
+console.log(account);
+Const;
+expenseEjemplo = new Entry('', ejemplo, de, gasto);
